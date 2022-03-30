@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.p1-grid-container{
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, 33%);
+    grid-auto-rows:300px ;
+    gap: 10px;
+    justify-content: center;
+    
+
+}
+
+.grid-item{
+    background-color: rgb(223, 164, 109);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.grid-item-1{
+background-color: brown;
+}
+.grid-item-2{
+background-color:rgb(184, 115, 11);
+}
+.grid-item-3{
+background-color:rgb(196, 140, 75)
+}
+.grid-item-4{
+background-color:rgb(8, 73, 8);
+}
+.grid-item-5{
+background-color:rgb(55, 107, 55);
+}
+.grid-item-6{
+background-color:rgb(93, 128, 93);
+}
+.p2-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  200px 400px 1fr;
+    
+}
+
+.p2-grid-item-1{
+    grid-column: 1 / 3;
+    background-color: brown;
+}
+
+.p2-grid-item-2{
+    grid-column: 3;
+    grid-row: 1 / 3;
+    background-color:rgb(196, 140, 75)
+}
+.p2-grid-item-3{
+    background-color:rgb(55, 107, 55);
+}
+.p2-grid-item-4{
+    background-color:rgb(93, 128, 93);
+}
+
+.p3-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  100px 300px 100px;
+
+    grid-template-areas: "head head head"
+                         "m-Small m-Large m-Large"
+                         "bottom bottom bottom";
+}
+
+.p3-grid-item-1{
+    grid-area: head;
+    background-color:rgb(196, 140, 75);
+    
+}
+
+.p3-grid-item-2{
+    grid-area: m-Small;
+    background-color:rgb(55, 107, 55);
+}
+
+.p3-grid-item-3{
+    grid-area: m-Large;
+    background-color: brown;
+}
+
+.p3-grid-item-4{
+    grid-area: bottom;
+    background-color:rgb(93, 128, 93);
+}
+
+.p4-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  100px 300px 50px;
+
+    grid-template-areas: "head1 head1 head2 head2"
+                        "m-Small m-Large m-Large m-Large"
+                        "bottom bottom bottom bottom";
+
+}
+
+.p4-grid-item-1{
+    grid-area: head1;
+    background-color:rgb(184, 115, 11);
+}
+
+.p4-grid-item-2{
+    grid-area: head2;
+    background-color: brown;
+}
+
+.p4-grid-item-3{
+    grid-area: m-Small;
+    background-color:rgb(55, 107, 55);
+}
+
+.p4-grid-item-4{
+    grid-area: m-Large;
+    background-color:rgb(93, 128, 93);
+}
+
+.p4-grid-item-5{
+    grid-area: bottom;
+    background-color:rgb(196, 140, 75);
+}
+
+.p5-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(3, 200px);
+    
+    
+}
+
+.p6-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 100px);
+
+    grid-template-areas: "head1 head1 head2 head3"
+                            "m-1 m-2 m-3 x1"
+                            "grande grande m-4 m-5 "
+                            "grande grande m-6 x2"
+                            "bottom-1 bottom-1 bottom-1 bottom-2";
+    
+}
+
+.p6-grid-item-1{
+grid-area: head1;
+
+}
+
+.p6-grid-item-2{
+grid-area: head2;
+}
+
+.p6-grid-item-3{
+grid-area: head3;
+}
+
+.p6-grid-item-4{
+grid-area: m-1;
+}
+
+.p6-grid-item-5{
+grid-area: m-2;
+}
+
+.p6-grid-item-6{
+grid-area: m-3;
+}
+
+.p6-grid-item-7{
+grid-area: grande;
+}
+
+.p6-grid-item-8{
+grid-area: m-4;
+}
+
+.p6-grid-item-9{
+grid-area: m-5;
+}
+
+.p6-grid-item-10{
+grid-area: m-6;
+}
+.p6-grid-item-11{
+grid-area: bottom-1;
+}
+.p6-grid-item-12{
+grid-area: bottom-2;
+}
+
+.p7-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 500px;
+
+    grid-template-areas: "head1 head2"
+                         "body1 body2";
+    
+}
+.p7-grid-item-1{
+    grid-area: head1;
+    }
+    
+.p7-grid-item-2{
+    grid-area: head2;
+    }
+    
+.p7-grid-item-3{
+    grid-area: body1;
+    }
+    
+.p7-grid-item-4{
+    grid-area: body2;
+
+    display: grid;
+    padding: 15px;
+    gap: 10px;
+
+
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-template-areas: "s-head s-head"
+                         "s-body1 s-body2";
+    }
+    
+.p7-grid-item-5{
+    grid-area: s-head;
+    }
+    
+.p7-grid-item-6{
+    grid-area: s-body1;
+    }
+    
+.p7-grid-item-7{
+    grid-area: s-body2;
+    }
+
+
+.p8-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    
+    grid-template-areas: "h-1 h-2 h-3 h-4 h-5"
+                         "m-1 m-2 m-3 m-3 m-3"
+                         "bottom bottom bottom bottom bottom"
+        
+    }
+    
+.p8-grid-item-1{
+    grid-area: h-1;
+    }
+    
+.p8-grid-item-2{
+    grid-area: h-2;
+    }
+    
+.p8-grid-item-3{
+    grid-area: h-3;
+    }
+    
+.p8-grid-item-4{
+    grid-area: h-4;
+    }
+    
+.p8-grid-item-5{
+    grid-area: h-5;
+    }
+    
+.p8-grid-item-6{
+    grid-area: m-1;
+    }
+    
+.p8-grid-item-7{
+    grid-area: m-2;
+    }
+    
+.p8-grid-item-8{
+    grid-area: m-3;
+    }
+    
+.p8-grid-item-9{
+    grid-area: bottom;
+    }
+
+.p9-grid-container{
+    display:grid;
+    gap: 10px;
+    margin: 10px;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    
+    grid-template-areas: "head head head head head head"
+                         "m-1 m-1 m-2 m-2 m-2 m-2"
+                         "m-1 m-1 m-3 m-3 m-4 m-4"
+        
+    }
+.p9-grid-item-1{
+    grid-area: head;
+    }
+    
+.p9-grid-item-2{
+    grid-area: m-1;
+    }
+    
+.p9-grid-item-3{
+    grid-area: m-2;
+    }
+    
+.p9-grid-item-4{
+    grid-area: m-3;
+    }
+    
+.p9-grid-item-5{
+    grid-area: m-4;
+    }
+
+h1{
+    text-align: center;
+    color:rgb(170, 170, 170);
+}
+
+#next-button{
+    left: 85%;
+    bottom: -100%;
+    position: relative;
+}
+
+#previous-button{
+    right:0%;
+    bottom: 0%;
+    position:relative;
+}
