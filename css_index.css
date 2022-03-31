@@ -1,13 +1,25 @@
 body{
-    text-align: center;
-    vertical-align: center;
-}
-p{
-    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+
 }
 h1{
-    text-align: center;
-    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -150px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
