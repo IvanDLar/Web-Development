@@ -1,7 +1,8 @@
 body{
     height: 100%;
     font-family: 'Libre Baskerville', serif;
-    background-image: url(Fondos\mountains-1412683.png);
+    background: url(../Web-Development/Fondos/mountains-1412683.png);
+
 }
 
 h1{
