@@ -1,8 +1,8 @@
 body{
     height: 100%;
     font-family: 'Libre Baskerville', serif;
-    background: url(../Web-Development/Fondos/mountains-1412683.png);
-
+    background-image: url(https://ivandlar.github.io/Web-Development/Fondos/mountains-1412683.png);
+    height: 100%;
 }
 
 h1{
