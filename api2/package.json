@@ -1,0 +1,17 @@
+{
+  "name": "hello_api2",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "hello_api2.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "keywords": [
+    "sf"
+  ],
+  "author": "Ivan Diaz",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

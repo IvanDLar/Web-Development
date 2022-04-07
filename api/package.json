@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanDLar/Web-Development.git"
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "author": "Ivan Diaz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IvanDLar/Web-Development/issues"
+  },
+  "homepage": "https://github.com/IvanDLar/Web-Development#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
